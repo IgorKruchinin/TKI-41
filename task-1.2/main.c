@@ -15,6 +15,11 @@ double rectangleArea(double width, double height);
 */
 double triangleArea(double a, double b, double c);
 
+/**
+* @brief считывает строку и проверяет, что в ней только числа
+* @param *result указатель на результат
+* @return код состояния 1 - ввод не соответствует требованиям, 0 - всё в порядке
+*/
 int checkedScan(double *result);
 
 int main() {
