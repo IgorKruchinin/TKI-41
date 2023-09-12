@@ -25,7 +25,7 @@ int main() {
 	printf("x = %f\n", x);
 	printf("y = %f\n", y);
 	printf("z = %f\n", z);
-	printf("\nresults of computing:\n");
+	printf("%s", "\nresults of computing:\n");
 	printf("a = %f\n", a);
 	printf("b = %f\n", b);
 	return 0;
